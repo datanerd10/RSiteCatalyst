@@ -1,3 +1,23 @@
+RSiteCatalyst 1.4.8
+=================
+
+* Silence "chatty" httr warning about defaulting to UTF-8 encoding, resolving #154
+
+* Add support for segment stacking (provided graciously by Adam Gitzes, resolving #129)
+
+* Clarified documentation around using SAINT classifications as report elements
+
+* Split tests into multiple files to remedy Travis CI build failures
+
+* Added date.to and date.from to QueueSummary function for parity with other Queue* functions
+
+RSiteCatalyst 1.4.7
+=================
+
+* Set encoding to UTF-8 by default, resolving GitHub issue #151
+
+* Added `locale` keyword to SCAuth() function, so that if additional encoding issues arise, you can set the report locale, such as Germany as 'de_DE'. A full enumeration of locale codes can be found at https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/r-reportdescriptionlocale
+
 RSiteCatalyst 1.4.6
 =================
 
